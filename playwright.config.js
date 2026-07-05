@@ -22,7 +22,7 @@ export default defineConfig({
   /* Configure projects for major browsers */
   reporter: 'html',
     use:{
-      browserNamename: 'chromium',
+      browserName: 'chromium',
       headless: false,
     },
 
