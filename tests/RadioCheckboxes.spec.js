@@ -10,5 +10,6 @@ await page.locator("#checkBoxOption2").check();
 expect(await page.locator("#checkBoxOption2").isChecked()).toBeTruthy();
 expect(await page.locator("#checkBoxOption3").isChecked()).toBeFalsy();
 await page.waitForTimeout(5000);
+await page.pause();
 
 });
